@@ -26,7 +26,7 @@ namespace MyApplicationNamespace
 
         internal async static Task<string> GetAppReceiptAsync()
         {
-            return await CurrentApp.GetAppReceiptAsync();
+            return await aliasCurrentApp.GetAppReceiptAsync();
         }
     }
 }
